@@ -111,9 +111,6 @@ public class HomePage extends BasePage{
         for(int i=0; i<5; i++){
             words = ArrayUtils.addAll(words,translatedHeaders[i].split("\\s"));
         }
-        for(int i=0; i< words.length; i++){
-            System.out.println((words[i]));
-        }
         Map<String, Integer> wordMap = new HashMap<>();
         for(String word : words){
             if (wordMap.get(word) != null) {

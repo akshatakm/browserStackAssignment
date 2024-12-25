@@ -3,19 +3,19 @@ accessKey: s1Equ24k1Vhxq4phNLsg
 platforms:
   - os: Windows
     osVersion: 10
-    browserName: Chrome
-    browserVersion: 120.0
-  - os: Windows
-    osVersion: 10
     browserName: Edge
     browserVersion: latest
-  - os: OS X
-    osVersion: Monterey
-    browserName: Firefox
+  - os: Windows
+    osVersion: 11
+    browserName: Chrome
     browserVersion: latest
   - os: OS X
     osVersion: Sonoma
     browserName: Chrome
+    browserVersion: latest
+  - os: OS X
+    osVersion: Monterey
+    browserName: Firefox
     browserVersion: latest
   - deviceName: Google Pixel 9 Pro
     osVersion: 15.0
@@ -24,7 +24,7 @@ platforms:
 browserstackLocal: true
 buildName: bstack-demo
 buildIdentifier: bstack-demo 1
-projectName: BrowserStack tech assignment
+projectName: BrowserStack Sample
 debug: true
 networkLogs: true
 consoleLogs: info
