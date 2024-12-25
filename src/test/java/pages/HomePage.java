@@ -80,6 +80,7 @@ public class HomePage extends BasePage{
                 int articleNo = i + 1;
                 System.out.println("Article no " + articleNo);
                 System.out.println(headerList.get(i).getText());
+                System.out.println(contentList.get(i).getText());
             }
             if(i>0){
                 return true;

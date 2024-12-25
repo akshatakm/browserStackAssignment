@@ -10,11 +10,11 @@ public class TranslateText {
 
     public String translateTextToEnglish(String spanishText) {
         HttpRequest request = HttpRequest.newBuilder()
-                .uri(URI.create("https://google-api31.p.rapidapi.com/gtranslate"))
+                .uri(URI.create("https://google-translate113.p.rapidapi.com/api/v1/translator/text"))
                 .header("x-rapidapi-key", "1d25c797c8mshd4011ca90048f49p1a1e19jsn54b722f67f2b")
-                .header("x-rapidapi-host", "google-api31.p.rapidapi.com")
+                .header("x-rapidapi-host", "google-translate113.p.rapidapi.com")
                 .header("Content-Type", "application/json")
-                .method("POST", HttpRequest.BodyPublishers.ofString("{\"text\":\""+spanishText+"\",\"to\":\"en\",\"from_lang\":\"es\"}"))
+                .method("POST", HttpRequest.BodyPublishers.ofString("{\"from\":\"es\",\"to\":\"en\",\"text\":\""+spanishText+"\"}"))
                 .build();
         HttpResponse<String> response = null;
         try {

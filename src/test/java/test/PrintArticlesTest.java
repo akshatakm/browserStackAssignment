@@ -17,6 +17,11 @@ public class PrintArticlesTest extends BaseTest{
     public void printArticles() {
         homePage = new HomePage(this.driver);
         homePage.printArticlesinOpinionSection();
+    }
+
+    @Test(priority = 2)
+    public void translateAndPrintDuplicateInHeaders(){
+        homePage = new HomePage(this.driver);
         homePage.translateHeadersToEnglish();
     }
 

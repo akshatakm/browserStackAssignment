@@ -631,3 +631,330 @@
 16:01:53.020 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
 16:01:58.320 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/aafbac4706c1ff2d0c3525e63aedae744a06978d
 16:01:58.320 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+21:31:05.181 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.20.0
+21:31:05.183 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+21:31:05.371 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+21:31:05.371 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/akshathak/Documents/browserStack/browserstack.yml
+21:31:05.408 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+21:31:05.779 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+21:31:08.746 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+21:31:12.761 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+21:31:21.911 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+21:32:02.141 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/xkidaney2e9ajupc7gx4qyt0v0nxribwyabbactw to view build report, insights, and many more debugging information all at one place!
+
+21:32:02.141 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+21:32:08.778 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/aafbac4706c1ff2d0c3525e63aedae744a06978d
+21:32:08.778 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+21:36:47.747 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.20.0
+21:36:47.749 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+21:36:47.925 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+21:36:47.926 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/akshathak/Documents/browserStack/browserstack.yml
+21:36:47.962 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+21:36:48.307 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+21:36:49.068 [SIGINT handler] INFO  c.b.utils.ExitSignalHandler - Shutdown triggered by: INT 2
+21:36:50.728 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+21:37:09.447 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.20.0
+21:37:09.450 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+21:37:09.599 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+21:37:09.599 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/akshathak/Documents/browserStack/browserstack.yml
+21:37:09.630 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+21:37:09.950 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+21:37:11.744 [SIGINT handler] INFO  c.b.utils.ExitSignalHandler - Shutdown triggered by: INT 2
+21:37:22.256 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is null. We currently support frameworks testng, cucumber-testng & serenity
+21:37:44.752 [main] DEBUG c.b.utils.FunnelInstrumentation - Error in getting Product java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because the return value of "com.browserstack.config.BrowserStackConfig.getFramework()" is null
+21:37:44.772 [main] DEBUG c.b.utils.FunnelInstrumentation - Unable to parse data from processes. Exception: Unexpected token END OF FILE at position 0.
+	at browserstack.shaded.org.json.simple.parser.JSONParser.parse(Unknown Source)
+	at browserstack.shaded.org.json.simple.parser.JSONParser.parse(Unknown Source)
+	at browserstack.shaded.org.json.simple.parser.JSONParser.parse(Unknown Source)
+	at com.browserstack.utils.FunnelInstrumentation.getFormattedDataFromProcesses(Unknown Source)
+	at com.browserstack.utils.FunnelInstrumentation.createParamsForEvent(Unknown Source)
+	at com.browserstack.utils.FunnelInstrumentation.sendSDKEvent(Unknown Source)
+	at com.browserstack.testNgListeners.TmpSuiteListener.onFinish(Unknown Source)
+	at org.testng.TestRunner.fireEvent(TestRunner.java:923)
+	at org.testng.TestRunner.afterRun(TestRunner.java:887)
+	at org.testng.TestRunner.run(TestRunner.java:599)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+
+21:37:44.772 [main] DEBUG com.browserstack.testOps.UsageStats - getFormattedData: Collecting data for TestObservability
+21:37:44.796 [main] TRACE c.b.t.TestOrchestrationUtils - getInstrumentationData: invoked
+21:37:44.803 [main] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestSuccessful with data: {"event_type":"SDKTestSuccessful","accessKey":null,"userName":null,"event_properties":{"isPercyAutoEnabled":false,"language":"java","sdkRunId":"5653f57d-a338-4825-aac1-3ae6939c0f2b","buildIdentifier":"unknown","testhub_uuid":"","detectedAppiumVersion":"null","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":false,"turboscale":false},"hostname":"Akshathas-MacBook-Pro.local","productUsage":{"testObservability":{"buildHashedId":"","manuallySet":false,"enabled":false}},"browserStackConfig":{"browserstackLocal":null,"percy":false,"logLevel":"info","staticWebDriver":true,"autoDetectFramework":true,"percyCaptureMode":"MANUAL","browserStackLocalOptions":null,"percyOptions":null,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"serenityOverridePlugin":false},"platforms":null,"parallelsPerPlatform":null,"framework":null,"accessibility":false,"accessibilityOptions":{},"turboScaleOptions":{},"disableAutoCaptureLogs":true,"testObservability":true,"browserstackAutomation":true,"turboScale":false,"testObservabilityOptions":{},"gradleMConfig":null,"proxySettings":null},"percyBuildId":null,"product":"[automate]","buildName":"unknown","os":"Mac OS X","languageVersion":"23.0.1","appiumVersion":"null","frameworkDetectionInstrumentation":{},"detectedDependencies":"","referrer":"unknown","locationTrigger":"onFinish","accessibilityConfiguration":{"pollingTimeout":30},"language_framework":"unknown","testOrchestration":{"abortBuildOnFailure":{"enabled":false},"retryTestsOnFailure":{"enabled":false},"userConfig":{}},"detectedSeleniumVersion":"4.20.0","seleniumVersion":"null"}}
+21:37:45.187 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - {"message":"Unauthorized"}
+21:38:38.852 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is null. We currently support frameworks testng, cucumber-testng & serenity
+21:38:57.762 [main] DEBUG c.b.utils.FunnelInstrumentation - Error in getting Product java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because the return value of "com.browserstack.config.BrowserStackConfig.getFramework()" is null
+21:38:57.781 [main] DEBUG c.b.utils.FunnelInstrumentation - Unable to parse data from processes. Exception: Unexpected token END OF FILE at position 0.
+	at browserstack.shaded.org.json.simple.parser.JSONParser.parse(Unknown Source)
+	at browserstack.shaded.org.json.simple.parser.JSONParser.parse(Unknown Source)
+	at browserstack.shaded.org.json.simple.parser.JSONParser.parse(Unknown Source)
+	at com.browserstack.utils.FunnelInstrumentation.getFormattedDataFromProcesses(Unknown Source)
+	at com.browserstack.utils.FunnelInstrumentation.createParamsForEvent(Unknown Source)
+	at com.browserstack.utils.FunnelInstrumentation.sendSDKEvent(Unknown Source)
+	at com.browserstack.testNgListeners.TmpSuiteListener.onFinish(Unknown Source)
+	at org.testng.TestRunner.fireEvent(TestRunner.java:923)
+	at org.testng.TestRunner.afterRun(TestRunner.java:887)
+	at org.testng.TestRunner.run(TestRunner.java:599)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+
+21:38:57.782 [main] DEBUG com.browserstack.testOps.UsageStats - getFormattedData: Collecting data for TestObservability
+21:38:57.804 [main] TRACE c.b.t.TestOrchestrationUtils - getInstrumentationData: invoked
+21:38:57.809 [main] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestSuccessful with data: {"event_type":"SDKTestSuccessful","accessKey":null,"userName":null,"event_properties":{"isPercyAutoEnabled":false,"language":"java","sdkRunId":"ae65d31d-74b6-4a96-b731-ff5823cb2086","buildIdentifier":"unknown","testhub_uuid":"","detectedAppiumVersion":"null","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":false,"turboscale":false},"hostname":"Akshathas-MacBook-Pro.local","productUsage":{"testObservability":{"buildHashedId":"","manuallySet":false,"enabled":false}},"browserStackConfig":{"browserstackLocal":null,"percy":false,"logLevel":"info","staticWebDriver":true,"autoDetectFramework":true,"percyCaptureMode":"MANUAL","browserStackLocalOptions":null,"percyOptions":null,"testContextOptions":{"skipSessionStatus":false,"skipSessionName":false,"serenityOverridePlugin":false},"platforms":null,"parallelsPerPlatform":null,"framework":null,"accessibility":false,"accessibilityOptions":{},"turboScaleOptions":{},"disableAutoCaptureLogs":true,"testObservability":true,"browserstackAutomation":true,"turboScale":false,"testObservabilityOptions":{},"gradleMConfig":null,"proxySettings":null},"percyBuildId":null,"product":"[automate]","buildName":"unknown","os":"Mac OS X","languageVersion":"23.0.1","appiumVersion":"null","frameworkDetectionInstrumentation":{},"detectedDependencies":"","referrer":"unknown","locationTrigger":"onFinish","accessibilityConfiguration":{"pollingTimeout":30},"language_framework":"unknown","testOrchestration":{"abortBuildOnFailure":{"enabled":false},"retryTestsOnFailure":{"enabled":false},"userConfig":{}},"detectedSeleniumVersion":"4.20.0","seleniumVersion":"null"}}
+21:38:58.310 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - {"message":"Unauthorized"}
+21:42:23.200 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.20.0
+21:42:23.201 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+21:42:23.372 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+21:42:23.373 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/akshathak/Documents/browserStack/browserstack.yml
+21:42:23.409 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+21:42:23.757 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+21:42:26.299 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+21:42:27.307 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+21:42:35.513 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+21:44:12.014 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/uvuot85ioq1lvwbmpnjy5sse1ujymnqnb4q8djmv to view build report, insights, and many more debugging information all at one place!
+
+21:44:12.015 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+21:44:19.160 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/aafbac4706c1ff2d0c3525e63aedae744a06978d
+21:44:19.161 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+00:07:35.481 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.20.0
+00:07:35.483 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+00:07:35.635 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+00:07:35.635 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/akshathak/Documents/browserStack/browserstack.yml
+00:07:35.670 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+00:07:35.996 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+00:07:38.424 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+00:07:39.298 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+00:07:47.273 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+00:08:20.242 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/utiawi7dmvimskzefl6dd83yxngt9uuqdefh1gfm to view build report, insights, and many more debugging information all at one place!
+
+00:08:20.244 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+00:08:26.308 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/aafbac4706c1ff2d0c3525e63aedae744a06978d
+00:08:26.308 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+00:13:17.150 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.20.0
+00:13:17.151 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+00:13:17.297 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+00:13:17.297 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/akshathak/Documents/browserStack/browserstack.yml
+00:13:17.339 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+00:13:17.710 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+00:13:20.831 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+00:13:21.733 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+00:13:29.615 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+00:14:41.869 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/i42zokhhrr4zzdcpixlnk0qv8f2be2sd3poeuvwu to view build report, insights, and many more debugging information all at one place!
+
+00:14:41.871 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+00:14:48.073 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/aafbac4706c1ff2d0c3525e63aedae744a06978d
+00:14:48.073 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+00:16:44.578 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.20.0
+00:16:44.580 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+00:16:44.721 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+00:16:44.722 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/akshathak/Documents/browserStack/browserstack.yml
+00:16:44.757 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+00:16:45.094 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+00:16:48.200 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+00:16:49.258 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+00:16:57.560 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+00:17:43.644 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/cc7yvhu4y8t9zntklnx0hpurlnymjksjuktb0trl to view build report, insights, and many more debugging information all at one place!
+
+00:17:43.645 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+00:17:49.293 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/aafbac4706c1ff2d0c3525e63aedae744a06978d
+00:17:49.298 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+00:18:14.624 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.20.0
+00:18:14.626 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+00:18:14.808 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+00:18:14.809 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/akshathak/Documents/browserStack/browserstack.yml
+00:18:14.841 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+00:18:15.224 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+00:18:17.572 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+00:18:18.494 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+00:18:21.026 [SIGINT handler] INFO  c.b.utils.ExitSignalHandler - Shutdown triggered by: INT 2
+00:18:21.265 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/tepaegkdoumam8ouvdgru7adebslflm9ftshbo82 to view build report, insights, and many more debugging information all at one place!
+
+00:18:21.265 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+00:18:23.141 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/aafbac4706c1ff2d0c3525e63aedae744a06978d
+00:18:23.142 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+00:20:28.293 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is null. We currently support frameworks testng, cucumber-testng & serenity
+00:20:34.481 [main] DEBUG c.b.utils.FunnelInstrumentation - Error in getting Product java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because the return value of "com.browserstack.config.BrowserStackConfig.getFramework()" is null
+00:20:34.505 [main] DEBUG c.b.utils.FunnelInstrumentation - Unable to parse data from processes. Exception: Unexpected token END OF FILE at position 0.
+	at browserstack.shaded.org.json.simple.parser.JSONParser.parse(Unknown Source)
+	at browserstack.shaded.org.json.simple.parser.JSONParser.parse(Unknown Source)
+	at browserstack.shaded.org.json.simple.parser.JSONParser.parse(Unknown Source)
+	at com.browserstack.utils.FunnelInstrumentation.getFormattedDataFromProcesses(Unknown Source)
+	at com.browserstack.utils.FunnelInstrumentation.createParamsForEvent(Unknown Source)
+	at com.browserstack.utils.FunnelInstrumentation.sendSDKEvent(Unknown Source)
+	at com.browserstack.testNgListeners.TmpSuiteListener.onFinish(Unknown Source)
+	at org.testng.TestRunner.fireEvent(TestRunner.java:923)
+	at org.testng.TestRunner.afterRun(TestRunner.java:887)
+	at org.testng.TestRunner.run(TestRunner.java:599)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+
+00:20:34.505 [main] DEBUG com.browserstack.testOps.UsageStats - getFormattedData: Collecting data for TestObservability
+00:20:34.533 [main] TRACE c.b.t.TestOrchestrationUtils - getInstrumentationData: invoked
+00:20:34.539 [main] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestSuccessful with data: {"event_type":"SDKTestSuccessful","accessKey":null,"userName":null,"event_properties":{"isPercyAutoEnabled":false,"language":"java","sdkRunId":"ccb63bc9-62ed-4eff-b3bf-b40086cbadf4","buildIdentifier":"unknown","testhub_uuid":"","detectedAppiumVersion":"null","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":false,"turboscale":false},"hostname":"Akshathas-MacBook-Pro.local","productUsage":{"testObservability":{"buildHashedId":"","manuallySet":false,"enabled":false}},"browserStackConfig":{"browserstackLocal":null,"percy":false,"logLevel":"info","staticWebDriver":true,"autoDetectFramework":true,"percyCaptureMode":"MANUAL","browserStackLocalOptions":null,"percyOptions":null,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"serenityOverridePlugin":false},"platforms":null,"parallelsPerPlatform":null,"framework":null,"accessibility":false,"accessibilityOptions":{},"turboScaleOptions":{},"disableAutoCaptureLogs":true,"testObservability":true,"browserstackAutomation":true,"turboScale":false,"testObservabilityOptions":{},"gradleMConfig":null,"proxySettings":null},"percyBuildId":null,"product":"[automate]","buildName":"unknown","os":"Mac OS X","languageVersion":"23.0.1","appiumVersion":"null","frameworkDetectionInstrumentation":{},"detectedDependencies":"","referrer":"unknown","locationTrigger":"onFinish","accessibilityConfiguration":{"pollingTimeout":30},"language_framework":"unknown","testOrchestration":{"abortBuildOnFailure":{"enabled":false},"retryTestsOnFailure":{"enabled":false},"userConfig":{}},"detectedSeleniumVersion":"4.20.0","seleniumVersion":"null"}}
+00:20:35.703 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - {"message":"Unauthorized"}
+00:21:05.699 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is null. We currently support frameworks testng, cucumber-testng & serenity
+00:21:17.587 [main] DEBUG c.b.utils.FunnelInstrumentation - Error in getting Product java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because the return value of "com.browserstack.config.BrowserStackConfig.getFramework()" is null
+00:21:17.609 [main] DEBUG c.b.utils.FunnelInstrumentation - Unable to parse data from processes. Exception: Unexpected token END OF FILE at position 0.
+	at browserstack.shaded.org.json.simple.parser.JSONParser.parse(Unknown Source)
+	at browserstack.shaded.org.json.simple.parser.JSONParser.parse(Unknown Source)
+	at browserstack.shaded.org.json.simple.parser.JSONParser.parse(Unknown Source)
+	at com.browserstack.utils.FunnelInstrumentation.getFormattedDataFromProcesses(Unknown Source)
+	at com.browserstack.utils.FunnelInstrumentation.createParamsForEvent(Unknown Source)
+	at com.browserstack.utils.FunnelInstrumentation.sendSDKEvent(Unknown Source)
+	at com.browserstack.testNgListeners.TmpSuiteListener.onFinish(Unknown Source)
+	at org.testng.TestRunner.fireEvent(TestRunner.java:923)
+	at org.testng.TestRunner.afterRun(TestRunner.java:887)
+	at org.testng.TestRunner.run(TestRunner.java:599)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+
+00:21:17.609 [main] DEBUG com.browserstack.testOps.UsageStats - getFormattedData: Collecting data for TestObservability
+00:21:17.644 [main] TRACE c.b.t.TestOrchestrationUtils - getInstrumentationData: invoked
+00:21:17.650 [main] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestSuccessful with data: {"event_type":"SDKTestSuccessful","accessKey":null,"userName":null,"event_properties":{"isPercyAutoEnabled":false,"language":"java","sdkRunId":"179ec1a6-94d7-4210-a9d4-fa572159bc1a","buildIdentifier":"unknown","testhub_uuid":"","detectedAppiumVersion":"null","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":false,"turboscale":false},"hostname":"Akshathas-MacBook-Pro.local","productUsage":{"testObservability":{"buildHashedId":"","manuallySet":false,"enabled":false}},"browserStackConfig":{"browserstackLocal":null,"percy":false,"logLevel":"info","staticWebDriver":true,"autoDetectFramework":true,"percyCaptureMode":"MANUAL","browserStackLocalOptions":null,"percyOptions":null,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"serenityOverridePlugin":false},"platforms":null,"parallelsPerPlatform":null,"framework":null,"accessibility":false,"accessibilityOptions":{},"turboScaleOptions":{},"disableAutoCaptureLogs":true,"testObservability":true,"browserstackAutomation":true,"turboScale":false,"testObservabilityOptions":{},"gradleMConfig":null,"proxySettings":null},"percyBuildId":null,"product":"[automate]","buildName":"unknown","os":"Mac OS X","languageVersion":"23.0.1","appiumVersion":"null","frameworkDetectionInstrumentation":{},"detectedDependencies":"","referrer":"unknown","locationTrigger":"onFinish","accessibilityConfiguration":{"pollingTimeout":30},"language_framework":"unknown","testOrchestration":{"abortBuildOnFailure":{"enabled":false},"retryTestsOnFailure":{"enabled":false},"userConfig":{}},"detectedSeleniumVersion":"4.20.0","seleniumVersion":"null"}}
+00:21:18.099 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - {"message":"Unauthorized"}
+00:22:27.940 [main] WARN  c.b.config.BrowserStackConfig - Test Observability could not be enabled because framework detected is null. We currently support frameworks testng, cucumber-testng & serenity
+00:22:38.523 [main] DEBUG c.b.utils.FunnelInstrumentation - Error in getting Product java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because the return value of "com.browserstack.config.BrowserStackConfig.getFramework()" is null
+00:22:38.544 [main] DEBUG c.b.utils.FunnelInstrumentation - Unable to parse data from processes. Exception: Unexpected token END OF FILE at position 0.
+	at browserstack.shaded.org.json.simple.parser.JSONParser.parse(Unknown Source)
+	at browserstack.shaded.org.json.simple.parser.JSONParser.parse(Unknown Source)
+	at browserstack.shaded.org.json.simple.parser.JSONParser.parse(Unknown Source)
+	at com.browserstack.utils.FunnelInstrumentation.getFormattedDataFromProcesses(Unknown Source)
+	at com.browserstack.utils.FunnelInstrumentation.createParamsForEvent(Unknown Source)
+	at com.browserstack.utils.FunnelInstrumentation.sendSDKEvent(Unknown Source)
+	at com.browserstack.testNgListeners.TmpSuiteListener.onFinish(Unknown Source)
+	at org.testng.TestRunner.fireEvent(TestRunner.java:923)
+	at org.testng.TestRunner.afterRun(TestRunner.java:887)
+	at org.testng.TestRunner.run(TestRunner.java:599)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+
+00:22:38.545 [main] DEBUG com.browserstack.testOps.UsageStats - getFormattedData: Collecting data for TestObservability
+00:22:38.569 [main] TRACE c.b.t.TestOrchestrationUtils - getInstrumentationData: invoked
+00:22:38.574 [main] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestSuccessful with data: {"event_type":"SDKTestSuccessful","accessKey":null,"userName":null,"event_properties":{"isPercyAutoEnabled":false,"language":"java","sdkRunId":"00ece549-dd0a-41b6-8659-2ff081ae2e8a","buildIdentifier":"unknown","testhub_uuid":"","detectedAppiumVersion":"null","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":false,"turboscale":false},"hostname":"Akshathas-MacBook-Pro.local","productUsage":{"testObservability":{"buildHashedId":"","manuallySet":false,"enabled":false}},"browserStackConfig":{"browserstackLocal":null,"percy":false,"logLevel":"info","staticWebDriver":true,"autoDetectFramework":true,"percyCaptureMode":"MANUAL","browserStackLocalOptions":null,"percyOptions":null,"testContextOptions":{"serenityOverridePlugin":false,"skipSessionName":false,"skipSessionStatus":false},"platforms":null,"parallelsPerPlatform":null,"framework":null,"accessibility":false,"accessibilityOptions":{},"turboScaleOptions":{},"disableAutoCaptureLogs":true,"testObservability":true,"browserstackAutomation":true,"turboScale":false,"testObservabilityOptions":{},"gradleMConfig":null,"proxySettings":null},"percyBuildId":null,"product":"[automate]","buildName":"unknown","os":"Mac OS X","languageVersion":"23.0.1","appiumVersion":"null","frameworkDetectionInstrumentation":{},"detectedDependencies":"","referrer":"unknown","locationTrigger":"onFinish","accessibilityConfiguration":{"pollingTimeout":30},"language_framework":"unknown","testOrchestration":{"abortBuildOnFailure":{"enabled":false},"retryTestsOnFailure":{"enabled":false},"userConfig":{}},"detectedSeleniumVersion":"4.20.0","seleniumVersion":"null"}}
+00:22:39.733 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - {"message":"Unauthorized"}
+00:22:49.931 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.20.0
+00:22:49.934 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+00:22:50.080 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+00:22:50.080 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/akshathak/Documents/browserStack/browserstack.yml
+00:22:50.118 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+00:22:50.450 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+00:22:52.825 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+00:22:53.943 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+00:22:53.950 [main] ERROR com.browserstack.LocalFactory - Initialization of BrowserStack Local failed com.browserstack.local.LocalException: java.io.IOException: Cannot run program "/Users/akshathak/.browserstack/BrowserStackLocal": error=13, Permission denied.
+00:22:53.950 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - com.browserstack.utils.BrowserStackSDKException: Initialization of BrowserStack Local failed java.io.IOException: Cannot run program "/Users/akshathak/.browserstack/BrowserStackLocal": error=13, Permission denied.
+	at com.browserstack.LocalFactory.<init>(Unknown Source)
+	at com.browserstack.LocalFactory.a(Unknown Source)
+	at com.browserstack.LocalFactory.createInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.d(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+
+00:22:54.181 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/oypf76ip0zatstsg7wvmd6hw39knq8ekvsfqk1zk to view build report, insights, and many more debugging information all at one place!
+
+00:22:54.181 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+00:22:55.912 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/aafbac4706c1ff2d0c3525e63aedae744a06978d
+00:22:55.912 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+00:23:31.719 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.20.0
+00:23:31.722 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+00:23:31.873 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+00:23:31.874 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/akshathak/Documents/browserStack/browserstack.yml
+00:23:31.906 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+00:23:32.234 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+00:23:34.625 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+00:23:35.537 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+00:23:35.544 [main] ERROR com.browserstack.LocalFactory - Initialization of BrowserStack Local failed com.browserstack.local.LocalException: java.io.IOException: Cannot run program "/Users/akshathak/.browserstack/BrowserStackLocal": error=13, Permission denied.
+00:23:35.545 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - com.browserstack.utils.BrowserStackSDKException: Initialization of BrowserStack Local failed java.io.IOException: Cannot run program "/Users/akshathak/.browserstack/BrowserStackLocal": error=13, Permission denied.
+	at com.browserstack.LocalFactory.<init>(Unknown Source)
+	at com.browserstack.LocalFactory.a(Unknown Source)
+	at com.browserstack.LocalFactory.createInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.d(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+
+00:23:35.856 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/gjgxbzcwls3iq6xfsurpg1rsknhj9of6nbeirbo7 to view build report, insights, and many more debugging information all at one place!
+
+00:23:35.856 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+00:23:37.588 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/aafbac4706c1ff2d0c3525e63aedae744a06978d
+00:23:37.588 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+00:29:43.679 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.20.0
+00:29:43.681 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+00:29:43.856 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+00:29:43.856 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : /Users/akshathak/Documents/browserStack/browserstack.yml
+00:29:43.888 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+00:29:44.266 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+00:29:46.833 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+00:29:47.907 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+00:29:47.913 [main] ERROR com.browserstack.LocalFactory - Initialization of BrowserStack Local failed com.browserstack.local.LocalException: java.io.IOException: Cannot run program "/Users/akshathak/.browserstack/BrowserStackLocal": error=13, Permission denied.
+00:29:47.913 [main] ERROR c.browserstack.BrowserStackJavaAgent - Something went wrong - com.browserstack.utils.BrowserStackSDKException: Initialization of BrowserStack Local failed java.io.IOException: Cannot run program "/Users/akshathak/.browserstack/BrowserStackLocal": error=13, Permission denied.
+	at com.browserstack.LocalFactory.<init>(Unknown Source)
+	at com.browserstack.LocalFactory.a(Unknown Source)
+	at com.browserstack.LocalFactory.createInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.d(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+
+00:29:48.366 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/k0snqcmdgycbxmzjcsailgklvmrv0dih5ykpon8y to view build report, insights, and many more debugging information all at one place!
+
+00:29:48.367 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+00:29:50.720 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/aafbac4706c1ff2d0c3525e63aedae744a06978d
+00:29:50.720 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
