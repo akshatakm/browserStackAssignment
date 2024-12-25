@@ -24,13 +24,8 @@ public class TranslateText {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
-        System.out.println(response.body());
         String[] translatedText = response.body().split("[\"]");
        return translatedText[3];
-
-
-
-
     }
 
 }

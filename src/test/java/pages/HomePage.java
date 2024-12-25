@@ -105,8 +105,10 @@ public class HomePage extends BasePage{
     public void translateHeadersToEnglish(){
         String[] translatedHeaders = new String[5];
         String[] words = new String[0];
+        System.out.println("Translated headers:");
         for(int i=0; i<5;i++){
             translatedHeaders[i] = translateText.translateTextToEnglish(headerList.get(i).getText());
+            System.out.println(translatedHeaders[i]);
         }
         for(int i=0; i<5; i++){
             words = ArrayUtils.addAll(words,translatedHeaders[i].split("\\s"));
